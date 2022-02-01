@@ -1,0 +1,9 @@
+div {
+    background-color: cyan;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: grey 1px solid;
+    border-radius: 4px;
+    font-size: 36px;
+}
