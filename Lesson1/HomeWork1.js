@@ -119,17 +119,17 @@ document.write(`<div>${bool1}</div>`);
 document.write(`<div>${bool2}</div>`);
 // Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ.
 // З'єднати їх в одну змінну person. (Не об'єкт)
-let person = {
-    firstName: 'Іван',
-    middleName: 'Ростиславович',
-    lastName: 'Галан'
-}
+let  firstName = 'Іван';
+let middleName = 'Ростиславович';
+let lastname = 'Галан';
+let person = firstName+" "+middleName+' '+lastname;
+console.log(person);
 //За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
-// prompt(person.firstName);
-// prompt(person.middleName);
-// prompt(25);
+firstName = prompt('Імя');
+middleName = prompt('По - батькові');
+let age = prompt('Вік');
 // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
-prompt('Вітаю' + person.firstName + person.middleName + '.' + ' Тобі 25 років.' );
+console.log('Вітаю ' + firstName + ' '+ middleName + '.' + ' Тобі '+ age + ' років.')
 //- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 let a1 = 100;
 let b1 = '100';
