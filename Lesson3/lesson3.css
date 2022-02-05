@@ -1,0 +1,98 @@
+/*div {*/
+/*    text-align: center;*/
+/*    margin: 0 auto;*/
+/*    background-color: darkgrey;*/
+/*    border-radius: 10px;*/
+/*    font-size: 32px;*/
+/*    border: darkorange 1px dashed;*/
+/*    width: 20%;*/
+/*    color: white;*/
+/*}*/
+h1 {
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+}
+.wrp {
+    width: 50%;
+}
+.min_wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+.name {
+    font-size: 30px;
+}
+.surname {
+    font-size: 30px;
+}
+.age {
+    font-size: 30px;
+}
+.info {
+    width: 80%;
+    font-size: 20px;
+}
+.simp_im {
+    width: 150px;
+    height: 200px;
+}
+.par {
+    width: 25%;
+    border: coral 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    color: #d9d6d6;
+}
+.cent {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+}
+.dir {
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.hg {
+    width: 48%;
+    border: gold 2px solid;
+    border-radius: 30px;
+    background-color: darkgrey;
+    margin: 10px;
+}
+.im_mar {
+    margin-right: 30px;
+}
+
+.main3_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-card {
+    margin-top: 30px;
+    border: #000000 6px solid;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: darkgrey;
+    box-shadow: grey 10px 10px 20px ;
+}
+.product-title {
+    font-size: 48px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: white 0px 0px 30px ;
+}
+.product-image {
+    width: 375px;
+    height: 500px;
+    border-radius: 30px;
+    border: darkgrey 1px solid;
+}
