@@ -96,3 +96,50 @@ h2 {
     border-radius: 30px;
     border: darkgrey 1px solid;
 }
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 4%;
+}
+.post-card {
+    text-align: center;
+    width: 16%;
+    border: grey 0.5px solid;
+    margin-bottom: 10px;
+}
+
+.users-box {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10%;
+}
+.user-block {
+    width: 44%;
+    border: black 2px solid;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 1%;
+    background-color: darkgrey;
+    font-size: 28px;
+}
+.address-block {
+    border: black 0.5px solid;
+    box-sizing: border-box;
+    padding: 1%;
+    background-color: #d9d6d6;
+    font-size: 20px;
+}
+.mini-wrap {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1%;
+}
+.line {
+    border: black 0.5px solid;
+    margin-bottom: 1%;
+}
