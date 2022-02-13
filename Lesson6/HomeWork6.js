@@ -79,3 +79,5 @@
 //     return upW;
 // }
 // document.write(capitalize(ar));
+
+//6

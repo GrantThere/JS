@@ -140,3 +140,5 @@
 //     return empryAra;
 // }
 // console.log(cutString('ada af a afar asfare aefa  s a reasar ', 3));
+
+//6

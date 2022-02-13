@@ -83,3 +83,5 @@ let coursesAndDurationArray = [
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 
 // console.log(coursesAndDurationArray.filter(cours => cours.monthDuration>5).sort((curr,next) => next.monthDuration-curr.monthDuration));
+
+//6
