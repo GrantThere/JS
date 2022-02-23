@@ -1,5 +1,7 @@
 .wrap {
     display: flex;
+    justify-content: space-between;
+    margin: 0 40%;
 }
 .border {
     border: black 1.5px solid;
